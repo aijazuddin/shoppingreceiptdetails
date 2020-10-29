@@ -11,7 +11,8 @@ import com.msinc.shoppingreceipt.constant.ShoppingReceiptDetailsConstants;
  */
 public class ShoppingReceiptDetailsController {
 
-	public static final Logger logger = Logger.getLogger(ShoppingReceiptDetailsController.class.getName()); 
+	public static final Logger logger = Logger.getLogger(ShoppingReceiptDetailsController.class.getName());
+	//Add @RequestMapping to convert into a spring project 
 	public void getShoppingReceiptDetails(File file) {
 		logger.info(ShoppingReceiptDetailsConstants.SHOPPING_RECEIPT_REQUEST + " Received");
 	}
