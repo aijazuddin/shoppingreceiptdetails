@@ -18,7 +18,7 @@ import junit.framework.TestSuite;*/
 /**
  * Unit test for simple App.
  */
-public class ShoppingReceiptDetailsControllerTest 
+public class ShoppingReceiptDetailsServiceImplTest 
 {
 	
 	ShoppingReceiptDetailsServiceImpl shoppingReceiptDetails = new ShoppingReceiptDetailsServiceImpl();
